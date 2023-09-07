@@ -535,3 +535,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.grow{
+  flex-grow: 1;
+}
