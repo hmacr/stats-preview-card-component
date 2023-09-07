@@ -1,0 +1,9 @@
+{
+  "name": "stat-preview-card-component",
+  "version": "1.0.0",
+  "author": "hmacr",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
