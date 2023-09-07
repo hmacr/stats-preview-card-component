@@ -536,6 +536,495 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mt-4{
+  margin-top: 1rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-16{
+  height: 4rem;
+}
+
+.h-\[50\%\]{
+  height: 50%;
+}
+
+.h-\[400px\]{
+  height: 400px;
+}
+
+.h-\[200px\]{
+  height: 200px;
+}
+
+.h-\[350px\]{
+  height: 350px;
+}
+
+.h-\[300px\]{
+  height: 300px;
+}
+
+.h-\[250px\]{
+  height: 250px;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.max-w-\[400px\]{
+  max-width: 400px;
+}
+
+.max-w-lg{
+  max-width: 32rem;
+}
+
+.max-w-md{
+  max-width: 28rem;
+}
+
+.max-w-\[350px\]{
+  max-width: 350px;
+}
+
+.max-w-\[300px\]{
+  max-width: 300px;
+}
+
+.max-w-screen-xl{
+  max-width: 1280px;
+}
+
 .grow{
   flex-grow: 1;
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.gap-4{
+  gap: 1rem;
+}
+
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
+.rounded-t-xl{
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.border{
+  border-width: 1px;
+}
+
+.bg-dark-blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(233 47% 7% / var(--tw-bg-opacity));
+}
+
+.bg-desaturated-blue{
+  --tw-bg-opacity: 1;
+  background-color: hsl(244 38% 16% / var(--tw-bg-opacity));
+}
+
+.bg-soft-violet{
+  --tw-bg-opacity: 1;
+  background-color: hsl(277 64% 61% / var(--tw-bg-opacity));
+}
+
+.bg-soft-violet\/50{
+  background-color: hsl(277 64% 61% / 0.5);
+}
+
+.bg-soft-violet\/30{
+  background-color: hsl(277 64% 61% / 0.3);
+}
+
+.bg-soft-violet\/40{
+  background-color: hsl(277 64% 61% / 0.4);
+}
+
+.bg-soft-violet\/70{
+  background-color: hsl(277 64% 61% / 0.7);
+}
+
+.bg-soft-violet\/60{
+  background-color: hsl(277 64% 61% / 0.6);
+}
+
+.bg-soft-violet\/90{
+  background-color: hsl(277 64% 61% / 0.9);
+}
+
+.bg-soft-violet\/80{
+  background-color: hsl(277 64% 61% / 0.8);
+}
+
+.bg-soft-violet\/75{
+  background-color: hsl(277 64% 61% / 0.75);
+}
+
+.bg-header-desktop{
+  background-image: url("./images/image-header-desktop.jpg");
+}
+
+.bg-header-mobile{
+  background-image: url("./images/image-header-mobile.jpg");
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.p-6{
+  padding: 1.5rem;
+}
+
+.p-7{
+  padding: 1.75rem;
+}
+
+.p-4{
+  padding: 1rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-6{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-9{
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.pt-2{
+  padding-top: 0.5rem;
+}
+
+.pt-1{
+  padding-top: 0.25rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-inter{
+  font-family: Inter, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.font-lexend-deca{
+  font-family: Lexend Deca, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-\[15px\]{
+  font-size: 15px;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.font-light{
+  font-weight: 300;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+.text-white-600{
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.text-soft-violet{
+  --tw-text-opacity: 1;
+  color: hsl(277 64% 61% / var(--tw-text-opacity));
+}
+
+.text-white-900{
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
+}
+
+.text-white-700{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.bg-blend-normal{
+  background-blend-mode: normal;
+}
+
+.bg-blend-overlay{
+  background-blend-mode: overlay;
+}
+
+.bg-blend-darken{
+  background-blend-mode: darken;
+}
+
+.bg-blend-lighten{
+  background-blend-mode: lighten;
+}
+
+.bg-blend-hue{
+  background-blend-mode: hue;
+}
+
+.bg-blend-saturation{
+  background-blend-mode: saturation;
+}
+
+.bg-blend-color{
+  background-blend-mode: color;
+}
+
+.backdrop-brightness-75{
+  --tw-backdrop-brightness: brightness(.75);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-brightness-150{
+  --tw-backdrop-brightness: brightness(1.5);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-brightness-50{
+  --tw-backdrop-brightness: brightness(.5);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.backdrop-saturate-50{
+  --tw-backdrop-saturate: saturate(.5);
+  -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+          backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+@media (min-width: 768px){
+  .md\:m-10{
+    margin: 2.5rem;
+  }
+
+  .md\:my-10{
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .md\:mt-8{
+    margin-top: 2rem;
+  }
+
+  .md\:mt-10{
+    margin-top: 2.5rem;
+  }
+
+  .md\:h-full{
+    height: 100%;
+  }
+
+  .md\:h-\[500px\]{
+    height: 500px;
+  }
+
+  .md\:h-screen{
+    height: 100vh;
+  }
+
+  .md\:h-fit{
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .md\:h-\[400px\]{
+    height: 400px;
+  }
+
+  .md\:h-\[450px\]{
+    height: 450px;
+  }
+
+  .md\:h-\[300px\]{
+    height: 300px;
+  }
+
+  .md\:h-\[420px\]{
+    height: 420px;
+  }
+
+  .md\:h-\[480px\]{
+    height: 480px;
+  }
+
+  .md\:max-w-xl{
+    max-width: 36rem;
+  }
+
+  .md\:max-w-2xl{
+    max-width: 42rem;
+  }
+
+  .md\:max-w-screen-lg{
+    max-width: 1024px;
+  }
+
+  .md\:max-w-screen-xl{
+    max-width: 1280px;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:flex-row-reverse{
+    flex-direction: row-reverse;
+  }
+
+  .md\:justify-start{
+    justify-content: flex-start;
+  }
+
+  .md\:justify-between{
+    justify-content: space-between;
+  }
+
+  .md\:justify-stretch{
+    justify-content: stretch;
+  }
+
+  .md\:rounded-none{
+    border-radius: 0px;
+  }
+
+  .md\:rounded-r-xl{
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+  }
+
+  .md\:bg-header-desktop{
+    background-image: url("./images/image-header-desktop.jpg");
+  }
+
+  .md\:bg-contain{
+    background-size: contain;
+  }
+
+  .md\:p-6{
+    padding: 1.5rem;
+  }
+
+  .md\:p-0{
+    padding: 0px;
+  }
+
+  .md\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .md\:py-6{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .md\:px-10{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .md\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .md\:pt-8{
+    padding-top: 2rem;
+  }
+
+  .md\:text-left{
+    text-align: left;
+  }
+
+  .md\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
